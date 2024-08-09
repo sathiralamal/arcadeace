@@ -4,6 +4,7 @@ import { PrivacyComponent } from "./layouts/privacy/privacy.component";
 import { DatateleteComponent } from "./layouts/datatelete/datatelete.component";
 import { ContactComponent } from "./layouts/contact/contact.component";
 import { AboutComponent } from "./layouts/about/about.component";
+import { TermofserviceComponent } from "./layouts/termofservice/termofservice.component";
 
 export const routes: Routes = [
   {
@@ -25,5 +26,9 @@ export const routes: Routes = [
   {
     path: "contact",
     component: ContactComponent,
+  },
+  {
+    path: "terms-of-service",
+    component: TermofserviceComponent,
   },
 ];
